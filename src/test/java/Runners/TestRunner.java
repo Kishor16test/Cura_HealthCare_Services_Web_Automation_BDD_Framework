@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"Hooks","Steps"},
         tags = "@All",
         publish = true,
-        plugin = {"pretty","html:target/CucumberReports/Cdax_report.html"}
+        plugin = {"pretty","html:target/CucumberReports/Cura_Health_report.html"}
 
 )
 

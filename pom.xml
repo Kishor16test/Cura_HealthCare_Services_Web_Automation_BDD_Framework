@@ -73,7 +73,7 @@
                     <version>3.1.2</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>CuraHealthSuite.xml</suiteXmlFile>
+                            <suiteXmlFile>Cura.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
