@@ -11,9 +11,10 @@ import java.io.IOException;
 public class CoreHooks extends DriverFactory {
 
     @Before
-    public void openBrowser()
-    {
-        DriverFactory.initializeBrowser("chrome");
+    public void openBrowser() throws IOException {
+//        DriverFactory.initializeBrowser("chrome");
+        	String browserName=UtilityClass.getPFData("Browser");
+        	DriverFactory.initializeBrowser(browserName);
     }
 
     @After
